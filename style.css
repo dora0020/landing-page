@@ -1,0 +1,131 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container
+{
+    max-width: 80vw;
+    font-family: "Open Sans", sans-serif
+}
+
+.navbar
+{
+    display: flex;
+    height: 70px;
+}
+
+.navbar  li
+{
+    list-style: none;
+    margin: 0 12px;
+}
+
+.min-h-screen
+{
+    min-height: 100vh;
+}
+
+.bg-white
+{
+    background-color:white;
+}
+
+.mx-auto
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flex
+{
+    display: flex;
+}
+
+.items-center
+{
+    align-items: center;
+    font-size: 1.2rem;
+
+}
+
+.justify-between
+{
+    justify-content: space-between;
+}
+
+.font-bold
+{
+    font-weight: bold;
+}
+
+.topLeft
+{
+ width: 50%;
+}
+
+.topRight
+{
+ width: 40%;
+ align-items: last baseline;
+}
+
+.purple
+{
+    color: rgb(206, 16, 206);
+}
+
+.section1
+{
+    height: 40vh;
+    width: auto;
+    
+}
+
+
+.font-bold
+{
+    font-weight: bold;
+}
+
+.flex-col
+{
+   flex-direction: column;
+}
+
+.section2
+{
+    height: 30vh;
+}
+
+.btn 
+{
+    text-decoration: none;
+    color: rgb(246, 4, 4);
+    font-size: 1rem;
+    background-color: sky blue;
+    padding: 4px 12px;
+    margin: 6px 12px;
+    border-radius: 8px;
+    
+}
+
+.btn:hover
+{
+    color: rgb(103, 103, 247);
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.section3
+{
+    height: 20vh;
+}
+
+
+
+
